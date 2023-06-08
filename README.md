@@ -23,7 +23,7 @@
   <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
 [![Solved.ac
-프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=wlgns12370)](https://solved.ac/wlgns12370)
+프로필](http://mazassumnida.wtf/api/v2/generate_badge?boj=wlgns12370
   
 <a href="s">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wlgns12370&exclude_repo=dkssud8150.github.io&layout=compact&theme=tokyonight" />
