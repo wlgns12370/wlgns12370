@@ -26,9 +26,10 @@
   
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wlgns12370)](https://solved.ac/wlgns12370)
   
-<a href="s">
+<!-- <a href="s">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wlgns12370&exclude_repo=dkssud8150.github.io&layout=compact&theme=tokyonight" />
 </a>
 <a href="s">
   <img src="https://github-readme-stats.vercel.app/api?username=wlgns12370&theme=tokyonight&show_icons=true" width="42%" />
 </a>
+ -->
