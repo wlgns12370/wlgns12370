@@ -33,3 +33,5 @@
   <img src="https://github-readme-stats.vercel.app/api?username=wlgns12370&theme=tokyonight&show_icons=true" width="42%" />
 </a>
  -->
+
+ https://img.shields.io/badge/Tech%20Blog-11B48A?style=flat-square&logo=Vimeo&logoColor=white&link=https://velog.io/@wlgns12370
