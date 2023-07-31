@@ -26,10 +26,11 @@
 <br>
 <div align=center><h1>☁️ SNS List ☁️</h1></div> 
 <br>
+<a href="https://www.instagram.com/keep._.hun/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white"/></a>
 <a href="https://velog.io/@wlgns12370" target="_blank"><img src="https://img.shields.io/badge/Velog-20c997?style=flat-square&logo=Vimeo&logoColor=white"/></a>
 
 <br>
-
+<br>
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wlgns12370)](https://solved.ac/wlgns12370)
 <br>  
 <a href="s">
