@@ -28,12 +28,13 @@
 <br>
 <a href="https://www.instagram.com/keep._.hun/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white"/></a>
 <a href="https://velog.io/@wlgns12370" target="_blank"><img src="https://img.shields.io/badge/Velog-20c997?style=flat-square&logo=Vimeo&logoColor=white"/></a>
+<a href="https://www.facebook.com/profile.php?id=100009213223194" target="_blank"><img src="https://img.shields.io/badge/FaceBook-1877F2?style=flat-square&logo=facebook&logoColor=white"/></a>
 
-<br>
 <br>
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wlgns12370)](https://solved.ac/wlgns12370)
-<br>  
-<a href="s">
+ 
+<--
+ <a href="s">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wlgns12370&exclude_repo=dkssud8150.github.io&layout=compact&theme=tokyonight" />
-</a>
-
+</a> 
+-->
