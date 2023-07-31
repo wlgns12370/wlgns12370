@@ -31,10 +31,7 @@
 <a href="https://www.facebook.com/profile.php?id=100009213223194" target="_blank"><img src="https://img.shields.io/badge/FaceBook-1877F2?style=flat-square&logo=facebook&logoColor=white"/></a>
 
 <br>
+<br>
+
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wlgns12370)](https://solved.ac/wlgns12370)
- 
-<--
- <a href="s">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wlgns12370&exclude_repo=dkssud8150.github.io&layout=compact&theme=tokyonight" />
-</a> 
--->
+
