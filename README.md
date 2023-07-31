@@ -1,8 +1,8 @@
 
 ![header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&text=Welcome%20to%20JiHun's%20GitHub%20👋&animation=twinkling&fontSize=35&fontAlignY=40&fontAlign=70&height=250)
-
-<div align=center><h1>📚 STACKS</h1></div>
-
+<br>
+<div align=center><h1>🛠️ TECH STACKS 🛠️</h1></div>
+<br>
 <div align=center>   
   <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
   <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
@@ -23,14 +23,17 @@
   <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
   <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
   
-  
+<br>
+<div align=center><h1>☁️ SNS List ☁️</h1></div> 
+<br>
+<a href="https://velog.io/@wlgns12370" target="_blank"><img src="https://img.shields.io/badge/Velog-20c997?style=flat-square&logo=Vimeo&logoColor=white"/></a>
+
+<br>
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wlgns12370)](https://solved.ac/wlgns12370)
   
-<!-- <a href="s">
+<a href="s">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wlgns12370&exclude_repo=dkssud8150.github.io&layout=compact&theme=tokyonight" />
 </a>
 <a href="s">
   <img src="https://github-readme-stats.vercel.app/api?username=wlgns12370&theme=tokyonight&show_icons=true" width="42%" />
 </a>
- -->
-<a href="https://velog.io/@wlgns12370" target="_blank"><img src="https://img.shields.io/badge/Velog-20c997?style=flat-square&logo=Vimeo&logoColor=white"/></a>
