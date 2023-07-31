@@ -29,11 +29,10 @@
 <a href="https://velog.io/@wlgns12370" target="_blank"><img src="https://img.shields.io/badge/Velog-20c997?style=flat-square&logo=Vimeo&logoColor=white"/></a>
 
 <br>
+
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wlgns12370)](https://solved.ac/wlgns12370)
-  
+<br>  
 <a href="s">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=wlgns12370&exclude_repo=dkssud8150.github.io&layout=compact&theme=tokyonight" />
 </a>
-<a href="s">
-  <img src="https://github-readme-stats.vercel.app/api?username=wlgns12370&theme=tokyonight&show_icons=true" width="42%" />
-</a>
+
