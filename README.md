@@ -34,4 +34,4 @@
 <br>
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wlgns12370)](https://solved.ac/wlgns12370)
-[![minseon yu's GitHub stats](https://github-readme-stats.vercel.app/api?username=wlgns12370)](https://github.com/wlgns12370/github-readme-stats)
+<-- [![minseon yu's GitHub stats](https://github-readme-stats.vercel.app/api?username=wlgns12370)](https://github.com/wlgns12370/github-readme-stats) -->
