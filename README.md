@@ -1,4 +1,3 @@
-
 ![header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&text=Welcome%20to%20JiHun's%20GitHub%20👋&animation=twinkling&fontSize=35&fontAlignY=40&fontAlign=70&height=250)
 ## 👋 안녕하세요! 백엔드 개발자 유지훈입니다.
 * 여러 사람들과 아이디어에 대해 소통하는 것이 즐겁습니다.
