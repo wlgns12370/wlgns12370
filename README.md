@@ -8,8 +8,8 @@
 ## 🔥 Activity
 * 경북대학교 창업 동아리 MIC 5기 / 2021.09 ~ 2021.12
 * navi / 2021.12 ~ 2022.02
-* Get-P / 2022.02 ~ 2022.12
-* principes / 2023.03 ~
+* [Get-P](https://github.com/get-p-dev) / 2022.02 ~ 2022.12
+* [Principes](https://github.com/Principes-Artis-Mechanicae) / 2023.03 ~
 
 ## 🏆 Awards
 * 대구 경북 창업 캠프 우수 아이템상
