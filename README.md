@@ -19,6 +19,7 @@
 * 2022 창업 성과 경진 대회 수상
 * 제9회 대한민국 SW 융합 해커톤 본선
 * 2022 경북대학교 SpeechㆍPresentation 캠프 경진대회 2등
+* LG Aimers 3기 수료
   
 <br>
 <div align=center><h2>🛠️ TECH STACKS 🛠️</h2></div>
