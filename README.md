@@ -1,4 +1,3 @@
-![header](https://capsule-render.vercel.app/api?type=waving&color=timeGradient&text=Welcome%20to%20JiHun's%20GitHub%20👋&animation=twinkling&fontSize=35&fontAlignY=40&fontAlign=70&height=250)
 ## 👋 안녕하세요! 백엔드 개발자 유지훈입니다.
 * 여러 사람들과 아이디어에 대해 소통하는 것이 즐겁습니다.
 * 비즈니스를 이해하는 백엔드 개발자가 되기 위해 노력하고 있습니다.
@@ -20,38 +19,12 @@
 * 제9회 대한민국 SW 융합 해커톤 본선
 * 2022 경북대학교 SpeechㆍPresentation 캠프 경진대회 2등
 * LG Aimers 3기 수료
-  
-<br>
-<div align=center><h2>🛠️ TECH STACKS 🛠️</h2></div>
-<br>
-<div align=center>   
-  <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=html5&logoColor=white"> 
-  <img src="https://img.shields.io/badge/css-1572B6?style=for-the-badge&logo=css3&logoColor=white"> 
-  <img src="https://img.shields.io/badge/javascript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"> 
-  <br>
-  
-  <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white"> 
-  <img src="https://img.shields.io/badge/c-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-  <img src="https://img.shields.io/badge/python-3776AB?style=for-the-badge&logo=python&logoColor=white"> 
-<img src="https://img.shields.io/badge/mysql-4479A1?style=for-the-badge&logo=mysql&logoColor=white">
-  <br>
-  <img src="https://img.shields.io/badge/node.js-339933?style=for-the-badge&logo=Node.js&logoColor=white">
-  <img src="https://img.shields.io/badge/spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white">
-  <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
-  <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white">
-   <br>
-  <img src="https://img.shields.io/badge/bootstrap-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white">
-  <img src="https://img.shields.io/badge/git-F05032?style=for-the-badge&logo=git&logoColor=white">
-  <img src="https://img.shields.io/badge/github-181717?style=for-the-badge&logo=github&logoColor=white">
-  
-<br>
-<div align=center><h2>☁️ SNS List ☁️</h2></div> 
-<br>
+
+<div align=center>
+<div><h2>☁️ SNS ☁️</h2></div> 
 <a href="https://www.instagram.com/keep._.hun/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white"/></a>
 <a href="https://velog.io/@wlgns12370" target="_blank"><img src="https://img.shields.io/badge/Velog-20c997?style=flat-square&logo=Vimeo&logoColor=white"/></a>
 <a href="https://www.facebook.com/profile.php?id=100009213223194" target="_blank"><img src="https://img.shields.io/badge/FaceBook-1877F2?style=flat-square&logo=facebook&logoColor=white"/></a>
-
-<br>
 <br>
 
 [![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wlgns12370)](https://solved.ac/wlgns12370)
