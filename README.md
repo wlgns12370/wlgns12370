@@ -10,7 +10,8 @@
 * [Get-P](https://github.com/get-p-dev) / 2022.02 ~ 2022.12
 * [Principes](https://github.com/Principes-Artis-Mechanicae) / 2023.03 ~ 2024.12
 * [RING-US](https://github.com/Ring-Us) / 2024.08
-* [MOSU](https://github.com/mosu-dev) / 2025.07 ~
+* [MOSU](https://github.com/mosu-dev) / 2025.07 ~ 2025.11
+* [KTTA](https://github.com/Committee-of-System-Library/knu-tech-talk-arena-server) / 2025.10 ~
 
 ## 🏆 Awards
 * 대구 경북 창업 캠프 우수 아이템상
@@ -21,10 +22,3 @@
 * 제9회 대한민국 SW 융합 해커톤 본선
 * 2022 경북대학교 SpeechㆍPresentation 캠프 경진대회 2등
 * LG Aimers 3기 수료
-
-<div align=center>
-<div><h2>☁️ SNS ☁️</h2></div> 
-<a href="https://www.instagram.com/keep._.hun/" target="_blank"><img src="https://img.shields.io/badge/Instagram-E4405F?style=flat-square&logo=instagram&logoColor=white"/></a>
-<a href="https://velog.io/@wlgns12370" target="_blank"><img src="https://img.shields.io/badge/Velog-20c997?style=flat-square&logo=Vimeo&logoColor=white"/></a>
-<a href="https://www.facebook.com/profile.php?id=100009213223194" target="_blank"><img src="https://img.shields.io/badge/FaceBook-1877F2?style=flat-square&logo=facebook&logoColor=white"/></a>
-<br>
