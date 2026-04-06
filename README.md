@@ -65,3 +65,10 @@
 - [시스템도서위원회](https://github.com/Committee-of-System-Library/knu-tech-talk-arena-server) &nbsp; `2025.9 –`
 - [Principes](https://github.com/Principes-Artis-Mechanicae) (개발 동아리) &nbsp; `2023.03 – 2024.12`
 - [Get-P](https://github.com/get-p-dev) &nbsp; `2022.02 – 2022.12`
+
+
+---
+<div align="center">
+
+[![Solved.ac Profile](http://mazassumnida.wtf/api/v2/generate_badge?boj=wlgns12370)](https://solved.ac/wlgns12370)
+</div>
