@@ -61,8 +61,8 @@
 
 ## Activity
 
-- Google Developer Group on Campus KNU · Core 5기 &nbsp; `2025.09 –`
-- [시스템도서위원회](https://github.com/Committee-of-System-Library/knu-tech-talk-arena-server) &nbsp; `2025.9 –`
+- [Google Developer Group on Campus KNU · Core 5기](https://github.com/GDG-on-Campus-KNU) &nbsp; `2025.09 –`
+- [시스템도서위원회](https://github.com/Committee-of-System-Library) &nbsp; `2025.9 –`
 - [Principes](https://github.com/Principes-Artis-Mechanicae) (개발 동아리) &nbsp; `2023.03 – 2024.12`
 - [Get-P](https://github.com/get-p-dev) &nbsp; `2022.02 – 2022.12`
 
