@@ -3,7 +3,7 @@
 비즈니스 기반 개념간 격벽을 중요하게 생각하고, 성장을 중요시 하는 백엔드 개발자입니다.  
 팀원과의 기술적 의사결정 과정을 중요하게 생각하고, 수치와 시스템 안정성 기반으로 합의점을 찾습니다.
 
-📬 wlgns12370@gmail.com · [Blog](https://keephun.tistory.com/3)
+📬 wlgns12370@gmail.com · [Blog](https://keephun.tistory.com)
 
 ---
 
