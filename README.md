@@ -49,9 +49,8 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 - 전체 정원의 10%를 배부 인력 전용 물량으로 **자원 자체를 분리**해, 일반 신청자가 예약분을 침범하는 코드 경로를 제거하고 **물량 부족에 따른 추가 구매 0회**
 
 🔗 **의사결정 기록**  
-&nbsp;&nbsp;· `TODO` 동시성 전략 비교 Discussion  
-&nbsp;&nbsp;· `TODO` 스냅샷 설계 Discussion  
-&nbsp;&nbsp;· `TODO` 관련 PR
+&nbsp;&nbsp;· [동시성 전략 비교 Discussion ](https://github.com/Committee-of-System-Library/comit-backend/discussions/96) 
+&nbsp;&nbsp;· [야식마차 신청 PR1](https://github.com/Committee-of-System-Library/comit-backend/pull/166)  
 
 <br>
 
