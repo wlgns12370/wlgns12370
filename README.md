@@ -7,7 +7,7 @@
 기술 선택은 가능한 한 **공개된 기록으로 남깁니다.** 아래 프로젝트의 대안 비교와 의사결정 과정은  
 GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 
-📬 wlgns12370@gmail.com · [Blog](https://keephun.tistory.com)
+📬 wlgns12370@gmail.com
 
 ---
 
