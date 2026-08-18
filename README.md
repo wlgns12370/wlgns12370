@@ -16,7 +16,7 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 **Backend** &nbsp; `Java` `Spring Boot` `Spring Data JPA`  
 **Database** &nbsp; `MySQL` `Redis`  
 **DevOps** &nbsp;&nbsp; `Docker` `Kubernetes(K3s)`  
-**Infra** &nbsp; `AWS EC2 · RDS · S3`
+**Infra** &nbsp; `EC2 · RDS · S3`
 
 ---
 
