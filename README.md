@@ -23,6 +23,23 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 
 ## Projects
 
+
+### 선착순 야식 배부 서비스
+> 오프라인 배부 대기열의 온라인 전환 · 대상 814명 · 2026.04 – | Java 21, Spring Boot, MySQL, Docker, k6
+
+- 매 회 30\~60분씩 줄을 서던 현장 배부를 모바일 선착순 신청으로 전환, 정원 100\~150명에 약 400명이 경쟁하는 스파이크에서 초과 발급 0건
+- Redis·슬롯 테이블·WAS 메모리 세 방식을 비교한 뒤 **MySQL 원자적 UPDATE 채택** — 조회와 갱신 사이의 Race Condition을 단일 문장으로 제거하고, 재고의 단일 진실 공급원을 유지
+- 추정치(400명)를 설계 근거로만 두지 않고 **k6 부하 테스트로 검증** (약 400 RPS, p95 474ms)
+- 신청 자격 검증에서 **외부 재정 서비스 의존성을 제거** — 납부자 명단을 로컬 스냅샷으로 관리해, 신청이 집중되는 시간대에 외부 지연·장애가 신청 실패로 전파되지 않도록 격리
+- 전체 정원의 10%를 배부 인력 전용 물량으로 **자원 자체를 분리**해, 일반 신청자가 예약분을 침범하는 코드 경로를 제거하고 **물량 부족에 따른 추가 구매 0회**
+
+🔗 **의사결정 기록** — 문제 정의 → 합의 → 구현 → 실측 → 다음 결정  
+&nbsp;&nbsp;**1.** [데이터 모델 2안 · 동시성 전략 5안 비교 → MySQL 원자적 UPDATE 합의](https://github.com/Committee-of-System-Library/comit-backend/discussions/96)  
+&nbsp;&nbsp;**2.** [관리자 수동 오픈 의존성 제거 — 시간 기반 전략 전환, 환경변수로 즉시 롤백 가능](https://github.com/Committee-of-System-Library/comit-backend/pull/166)  
+&nbsp;&nbsp;**3.** [k6 스파이크 실측 공유 → 다음 단계 SKIP LOCKED vs WAS 메모리 의견 수렴](https://github.com/Committee-of-System-Library/comit-backend/discussions/146)  
+
+<br>
+
 ### 환전소 예약 서비스
 > 베트남 다낭 FPT IS 과제 · 2026.07 – 2026.08 | Java 21, Spring Boot, MySQL, K3s, Stripe
 
@@ -36,22 +53,6 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 &nbsp;&nbsp;· [좌석 선점 동시성 전략 — Row Lock vs SKIP LOCKED](https://github.com/vietnam-internship/server/discussions/13)  
 &nbsp;&nbsp;· [결제 API 통합 vs 분리 — 고스트 좌석과 선점 유실의 트레이드오프](https://github.com/vietnam-internship/server/discussions/15)  
 &nbsp;&nbsp;· [K3s 배포 및 환경별 매니페스트 구성](https://github.com/vietnam-internship/server/pull/10)
-
-<br>
-
-### 선착순 야식 배부 서비스
-> 오프라인 배부 대기열의 온라인 전환 · 대상 814명 · 2026.04 – | Java 21, Spring Boot, MySQL, Docker, k6
-
-- 매 회 30\~60분씩 줄을 서던 현장 배부를 모바일 선착순 신청으로 전환, 정원 100\~150명에 약 400명이 경쟁하는 스파이크에서 초과 발급 0건
-- Redis·슬롯 테이블·WAS 메모리 세 방식을 비교한 뒤 **MySQL 원자적 UPDATE 채택** — 조회와 갱신 사이의 Race Condition을 단일 문장으로 제거하고, 재고의 단일 진실 공급원을 유지
-- 추정치(400명)를 설계 근거로만 두지 않고 **k6 부하 테스트로 검증** (약 400 RPS, p95 474ms)
-- 신청 자격 검증에서 **외부 재정 서비스 의존성을 제거** — 납부자 명단을 로컬 스냅샷으로 관리해, 신청이 집중되는 시간대에 외부 지연·장애가 신청 실패로 전파되지 않도록 격리
-- 전체 정원의 10%를 배부 인력 전용 물량으로 **자원 자체를 분리**해, 일반 신청자가 예약분을 침범하는 코드 경로를 제거하고 **물량 부족에 따른 추가 구매 0회**
-
-🔗 **의사결정 기록** — 문제 정의 → 합의 → 구현 → 실측 → 다음 결정  
-&nbsp;&nbsp;**1.** [데이터 모델 2안 · 동시성 전략 5안 비교 → MySQL 원자적 UPDATE 합의](https://github.com/Committee-of-System-Library/comit-backend/discussions/96)
-&nbsp;&nbsp;**2.** [관리자 수동 오픈 의존성 제거 — 시간 기반 전략 전환, 환경변수로 즉시 롤백 가능](https://github.com/Committee-of-System-Library/comit-backend/pull/166)
-&nbsp;&nbsp;**3.** [k6 스파이크 실측 공유 → 다음 단계 SKIP LOCKED vs WAS 메모리 의견 수렴](https://github.com/Committee-of-System-Library/comit-backend/discussions/146)
 
 <br>
 
