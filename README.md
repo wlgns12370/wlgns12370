@@ -34,7 +34,7 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 - 전체 정원의 10%를 배부 인력 전용 물량으로 **자원 자체를 분리**해, 일반 신청자가 예약분을 침범하는 코드 경로를 제거하고 **물량 부족에 따른 추가 구매 0회**
 
 🔗 **의사결정 기록** — 문제 정의 → 합의 → 구현 → 실측 → 다음 결정  
-&nbsp;&nbsp;**1.** [데이터 모델 2안 · 동시성 전략 5안 비교 → MySQL 원자적 UPDATE 합의](https://github.com/Committee-of-System-Library/comit-backend/discussions/96)  
+&nbsp;&nbsp;**1.** [데이터 모델 2안 · 동시성 전략 3안 비교 → MySQL 원자적 UPDATE 합의](https://github.com/Committee-of-System-Library/comit-backend/discussions/96)  
 &nbsp;&nbsp;**2.** [관리자 수동 오픈 의존성 제거 — 시간 기반 전략 전환, 환경변수로 즉시 롤백 가능](https://github.com/Committee-of-System-Library/comit-backend/pull/166)  
 &nbsp;&nbsp;**3.** [k6 스파이크 실측 공유 → 다음 단계 SKIP LOCKED vs WAS 메모리 의견 수렴](https://github.com/Committee-of-System-Library/comit-backend/discussions/146)  
 
