@@ -55,39 +55,6 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 
 <br>
 
-### [모의 수능 신청 서비스](https://github.com/mosu-dev)
-> DAU 580 · MAU 11,400 · 등록 사용자 3,000명 | Java 21, Spring Boot, MySQL, Locust
-
-- 정원 초과 없이 20초 안에 1,800명을 동시 처리해야 하는 문제를, 팀원과 전략별 부하 테스트를 비교한 뒤 **ConcurrentHashMap + CAS 기반 로컬 캐시**로 합의
-- 집계 쿼리 직접 조회(93 RPS) 대비 **처리량 43% 향상(133.54 RPS)**, 정합성 동시 확보 <!-- TODO: "락 없음" → 비교 대상 정확히 표기했는지 확인 -->
-- RDB `SELECT FOR UPDATE` Fallback을 함께 설계해 캐시 장애 시에도 가용성 유지
-- Discord 웹훅 알림을 경고·주의·확인 3단계로 분리해 운영 중 장애 대응 체계화
-
-🔗 **의사결정 기록** &nbsp;· `TODO` 캐시 전략 비교 Discussion / PR
-
-<br>
-
-### [가두모집 홍보 서비스](https://github.com/Ring-Us)
-> DAU 2,200 · 동아리 부스 84개 | Java 21, Spring Boot, MySQL, Redis, k6
-
-- Redis Sorted Set + 1시간 주기 RDB 스냅샷 + AOF로 실시간 랭킹 구현 및 데이터 지속성 확보
-- 기획팀 당일 요청으로 들어온 피크 타임 이벤트를 **Feature Toggle 패턴으로 2시간 내 배포**, 이후 Toggle Router·Decision Logic·Toggle Point 3계층으로 분리해 무중단 on/off 가능하도록 개선
-- k6로 사용자 페르소나 기반 부하 시나리오를 직접 설계, 1,000 RPS 환경에서 p95 50ms 이하 확인
-
-🔗 **의사결정 기록** &nbsp;· `TODO` Feature Toggle 리팩터링 PR
-
-<br>
-
-### [비수도권 스타트업 인력난 해소 서비스](https://github.com/Principes-Artis-Mechanicae)
-> Java 17, Spring Boot, MySQL, Redis | 2022 대구 북구 청년창업 경진대회 수상
-
-- 선택도가 낮은 ENUM 컬럼의 복합 인덱스 포함 여부를 두고 `EXPLAIN ANALYZE`로 직접 검증 → **쿼리 실행 시간 2.02ms → 0.069ms (29x 단축)**
-- JPA → MyBatis 교체 가능성을 고려해 30개 Port 인터페이스로 의존성 역전, Port & Adapter 아키텍처 도입
-
-🔗 **의사결정 기록** &nbsp;· `TODO` 인덱스 검증 / 아키텍처 Discussion
-
----
-
 ## Education & Certifications
 
 - **경북대학교** 컴퓨터학부 · 전공 `2021.03 – 2027.02 (졸업 예정)`
