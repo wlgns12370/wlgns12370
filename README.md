@@ -23,7 +23,7 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 
 ## Projects
 
-### [환전소 예약 서비스](https://github.com/vietnam-internship/server) &nbsp;`FPT Information System 인턴`
+### 환전소 예약 서비스
 > 베트남 다낭 FPT IS 과제 · 2026.07 – 2026.08 | Java 21, Spring Boot, MySQL, K3s, Stripe
 
 - 30분 단위 타임 슬롯의 **선점 기준을 "슬롯 선택 시점"으로 확정**하고 신청·결제 API를 분리해, 결제 실패·재시도 중에도 예약 기회가 유실되지 않는 흐름 구현
@@ -35,11 +35,11 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 &nbsp;&nbsp;· [취소·만료 스케줄러가 동일 예약을 처리해 재고가 이중 복원되는 문제 — 낙관적 락 도입 제안](https://github.com/vietnam-internship/server/discussions/41)  
 &nbsp;&nbsp;· [좌석 선점 동시성 전략 — Row Lock vs SKIP LOCKED](https://github.com/vietnam-internship/server/discussions/13)  
 &nbsp;&nbsp;· [결제 API 통합 vs 분리 — 고스트 좌석과 선점 유실의 트레이드오프](https://github.com/vietnam-internship/server/discussions/15)  
-&nbsp;&nbsp;· [K8s 배포 및 환경별 매니페스트 구성](https://github.com/vietnam-internship/server/pull/10)
+&nbsp;&nbsp;· [K3s 배포 및 환경별 매니페스트 구성](https://github.com/vietnam-internship/server/pull/10)
 
 <br>
 
-### [선착순 야식 배부 서비스](https://github.com/Committee-of-System-Library/comit-backend)
+### 선착순 야식 배부 서비스 [(배포 링크)](https://chcse.knu.ac.kr/landing)
 > 오프라인 배부 대기열의 온라인 전환 · 대상 814명 · 2026.04 – | Java 21, Spring Boot, MySQL, Docker, k6
 
 - 매 회 30~60분씩 줄을 서던 현장 배부를 모바일 선착순 신청으로 전환, **정원 100~150명에 약 400명이 경쟁하는 스파이크에서 초과 발급 0건**
