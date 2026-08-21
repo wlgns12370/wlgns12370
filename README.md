@@ -34,9 +34,9 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
   - 납부자 명단을 로컬 스냅샷으로 관리해, 신청이 집중되는 시간대에 외부 지연·장애가 신청 실패로 전파되지 않도록 격리
 - 전체 정원의 10%를 배부 인력 전용 물량으로 **자원 자체를 분리**해, 일반 신청자가 예약분을 침범하는 코드 경로를 제거하고 **물량 부족에 따른 추가 구매 0회**
 
-🔗 **의사결정 기록** — 문제 정의 → 합의 → 구현 → 실측 → 다음 결정  
-&nbsp;&nbsp;**1.** [데이터 모델 2안 · 동시성 전략 3안 비교 → MySQL 원자적 UPDATE 합의](https://github.com/Committee-of-System-Library/comit-backend/discussions/96)  
-&nbsp;&nbsp;**2.** [관리자 수동 오픈 의존성 제거 — 시간 기반 전략 전환, 환경변수로 즉시 롤백 가능](https://github.com/Committee-of-System-Library/comit-backend/pull/166)  
+🔗 **의사결정 기록**
+&nbsp;&nbsp;**1.** [[디스커션1] 데이터 모델 및 동시성 전략 설계 과정 → MySQL 원자적 UPDATE 합의](https://github.com/Committee-of-System-Library/comit-backend/discussions/96)  
+&nbsp;&nbsp;**2.** [[PR1] 관리자 수동 오픈 의존성 제거](https://github.com/Committee-of-System-Library/comit-backend/pull/166)
 
 
 ### 환전소 예약 서비스
@@ -48,10 +48,10 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 - 동시성 제어에만 의존하지 않도록 **재고 정합성 검사와 Discord 알림·복구 스크립트**를 별도 운영 장치로 구성
 
 🔗 **의사결정 기록**  
-&nbsp;&nbsp;· [취소·만료 스케줄러가 동일 예약을 처리해 재고가 이중 복원되는 문제 — 낙관적 락 도입 제안](https://github.com/vietnam-internship/server/discussions/41)  
-&nbsp;&nbsp;· [좌석 선점 동시성 전략 — Row Lock vs SKIP LOCKED](https://github.com/vietnam-internship/server/discussions/13)  
-&nbsp;&nbsp;· [결제 API 통합 vs 분리 — 고스트 좌석과 선점 유실의 트레이드오프](https://github.com/vietnam-internship/server/discussions/15)  
-&nbsp;&nbsp;· [K3s 배포 및 환경별 매니페스트 구성](https://github.com/vietnam-internship/server/pull/10)
+&nbsp;&nbsp;· [[디스커션1]취소·만료 스케줄러가 동일 예약을 처리해 재고가 이중 복원되는 문제 -> 낙관적 락으로 해결](https://github.com/vietnam-internship/server/discussions/41)  
+&nbsp;&nbsp;· [[디스커션2]좌석 선점 동시성 전략 —> Row Lock](https://github.com/vietnam-internship/server/discussions/13)  
+&nbsp;&nbsp;· [[디스커션3]결제 API 통합 vs 분리 -> 분리 선택](https://github.com/vietnam-internship/server/discussions/15)  
+&nbsp;&nbsp;· [[PR1]K3s 배포 및 환경별 매니페스트 구성](https://github.com/vietnam-internship/server/pull/10)
 
 ## Education & Certifications
 
