@@ -25,7 +25,7 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 
 
 ### 선착순 야식 배부 서비스 [(배포 링크)](https://chcse.knu.ac.kr/snack)
-> 오프라인 배부 대기열의 온라인 전환 · 대상 814명 · 2026.04 – | Java 21, Spring Boot, MySQL, Docker, k6
+> 오프라인 배부 대기열의 온라인 전환 · 대상 1400명 · 2026.04 – | Java 21, Spring Boot, MySQL, Docker, k6
 
 - 매 회 30\~60분씩 줄을 서던 현장 배부를 모바일 선착순 신청으로 전환, 정원 100\~150명에 약 400명이 경쟁하는 스파이크에서 초과 발급 0건
 - SkipLocked, Redis, WAS 세 방식을 비교한 뒤 **MySQL 원자적 UPDATE 채택**
@@ -34,7 +34,7 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
   - 납부자 명단을 로컬 스냅샷으로 관리해, 신청이 집중되는 시간대에 외부 지연·장애가 신청 실패로 전파되지 않도록 격리
 - 전체 정원의 10%를 배부 인력 전용 물량으로 **자원 자체를 분리**해, 일반 신청자가 예약분을 침범하는 코드 경로를 제거하고 **물량 부족에 따른 추가 구매 0회**
 
-🔗 **의사결정 기록**
+🔗 **의사결정 기록**  
 &nbsp;&nbsp;**1.** [[디스커션1] 데이터 모델 및 동시성 전략 설계 과정 → MySQL 원자적 UPDATE 합의](https://github.com/Committee-of-System-Library/comit-backend/discussions/96)  
 &nbsp;&nbsp;**2.** [[PR1] 관리자 수동 오픈 의존성 제거](https://github.com/Committee-of-System-Library/comit-backend/pull/166)
 
