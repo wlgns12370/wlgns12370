@@ -35,8 +35,8 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 - 전체 정원의 10%를 배부 인력 전용 물량으로 **자원 자체를 분리**해, 일반 신청자가 예약분을 침범하는 코드 경로를 제거하고 **물량 부족에 따른 추가 구매 0회**
 
 🔗 **의사결정 기록**  
-&nbsp;&nbsp;**1.** [[디스커션1] 데이터 모델 및 동시성 전략 설계 과정 → MySQL 원자적 UPDATE 합의](https://github.com/Committee-of-System-Library/comit-backend/discussions/96)  
-&nbsp;&nbsp;**2.** [[PR1] 관리자 수동 오픈 의존성 제거](https://github.com/Committee-of-System-Library/comit-backend/pull/166)
+&nbsp;&nbsp;· [[디스커션1] 데이터 모델 및 동시성 전략 설계 과정 → MySQL 원자적 UPDATE 합의](https://github.com/Committee-of-System-Library/comit-backend/discussions/96)  
+&nbsp;&nbsp;· [[PR1] 관리자 수동 오픈 의존성 제거](https://github.com/Committee-of-System-Library/comit-backend/pull/166)
 
 
 ### 환전소 예약 서비스
