@@ -1,4 +1,4 @@
-## 유지훈 · Server Developer
+## 유지훈 · Server Developer · [GitHub](https://github.com/wlgns12370)
 
 제약이 있는 환경에서 **운영 비용이 낮은 구조**를 설계하는 데 관심이 많습니다.
 
@@ -22,6 +22,32 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 ---
 
 ## Projects
+
+### OPRO · 소상공인 정책자금 추천 AI 에이전트 [(Repository)](https://github.com/KB-AI-Challenge-Just-it/opro)
+> 사용자별 정보 보완과 정책자금 자격 검증을 연결한 프로액티브 AI 서비스 · 팀 JustIT
+
+- 초기 사업자 프로필의 빈 항목을 진단하고, 필요한 질문을 동적으로 생성해 답변을 추천 입력으로 연결
+- Spring에서 프로필·답변을 AI 서비스로 전달하고, BM25·벡터 하이브리드 RAG로 공고를 검색
+- 지원 요건과 사용자 정보를 대조해 부적합 공고를 추천 목록에서 제외하는 검증 흐름 구현
+- **기술:** Java, Spring Boot, Python, FastAPI, Next.js, PostgreSQL, ChromaDB, BM25, Claude API, Docker
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S0kno8-PiE0" title="OPRO 서비스 소개" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[![OPRO 서비스 소개 영상](https://img.youtube.com/vi/S0kno8-PiE0/hqdefault.jpg)](https://youtu.be/S0kno8-PiE0)
+
+### 공군 창의 혁신 해커톤 · 문서 기반 RAG [(Repository)](https://github.com/air-force-hackathon/rag)
+> PDF 문서의 구조를 보존하고 검색 근거를 개선한 내부 문서 질의응답 시스템
+
+- PDF 표 파싱으로 이름·연락처의 행 관계가 깨지는 문제를 추적하고 PyMuPDF·Camelot 기반 `CustomPDFReader` 구현
+- Kiwi 형태소 분석을 거친 BM25 키워드 검색과 의미 기반 Vector Search를 결합
+- BM25 점수를 Min-Max Scaling한 뒤 Vector 0.6·BM25 0.4로 결합해 검색 결과를 LLM 근거로 전달
+
+### 종합설계프로젝트2 · 버티포트 CCTV 통합 관제 [(Repository)](https://github.com/2026-1-2)
+> 장비가 저장한 감지 이미지를 웹 관제 화면의 알림으로 연결한 시스템
+
+- NestJS와 `chokidar`로 신규 이미지를 감지하고 파일 쓰기 완료 후 SSE로 관제 화면에 전달
+- 서버 재시작 시 기존 파일을 제외해 중복 알림을 방지하고, 백엔드·인프라 연동에 참여
+- 공동 논문을 게재하고 한국정보기술학회 대학생 논문경진대회 우수논문상 동상 수상
 
 
 ### 선착순 야식 배부 서비스 [(배포 링크)](https://chcse.knu.ac.kr/snack)
