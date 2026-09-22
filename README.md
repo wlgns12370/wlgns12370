@@ -31,8 +31,6 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 - 지원 요건과 사용자 정보를 대조해 부적합 공고를 추천 목록에서 제외하는 검증 흐름 구현
 - **기술:** Java, Spring Boot, Python, FastAPI, Next.js, PostgreSQL, ChromaDB, BM25, Claude API, Docker
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S0kno8-PiE0" title="OPRO 서비스 소개" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
 [![OPRO 서비스 소개 영상](https://img.youtube.com/vi/S0kno8-PiE0/hqdefault.jpg)](https://youtu.be/S0kno8-PiE0)
 
 ### 공군 창의 혁신 해커톤 · 문서 기반 RAG [(Repository)](https://github.com/air-force-hackathon/rag)
