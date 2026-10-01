@@ -42,7 +42,7 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 ### 선착순 야식 배부 서비스 [(배포 링크)](https://chcse.knu.ac.kr/snack)
 > 오프라인 배부 대기열의 온라인 전환 · 대상 1400명 · 2026.04 – | Java 21, Spring Boot, MySQL, Docker, k6
 
-- 매 회 30\~60분씩 줄을 서던 현장 배부를 모바일 선착순 신청으로 전환, 정원 100\~150명에 약 400명이 경쟁하는 스파이크에서 초과 발급 0건
+- 매 회 60분씩 줄을 서던 현장 배부를 모바일 선착순 신청으로 전환, 정원 150명에 약 400명이 경쟁하는 스파이크에서 초과 발급 0건
 - `SkipLocked`, `Redis cache`, `WAS cache` 세 방식을 비교한 뒤 **MySQL 원자적 UPDATE 채택**
 - 의사결정 근거를 얻기 위해 페르소나 기반 400명 인원에 대한 k6 부하 테스트 및 의사결정 (약 400 RPS, p95 474ms)
 - 신청 자격 검증에서 **외부 재정 서비스 의존성을 제거**
@@ -52,6 +52,14 @@ GitHub Discussions와 PR 리뷰에 그대로 남아 있습니다.
 🔗 **의사결정 기록**  
 &nbsp;&nbsp;· [[디스커션1] 데이터 모델 및 동시성 전략 설계 과정 → MySQL 원자적 UPDATE 합의](https://github.com/Committee-of-System-Library/comit-backend/discussions/96)  
 &nbsp;&nbsp;· [[PR1] 관리자 수동 오픈 의존성 제거](https://github.com/Committee-of-System-Library/comit-backend/pull/166)
+
+### 모수 · 모의수능 시험장 예약 서비스 [(Repository)](https://github.com/wlgns12370/mosu-demo)
+> 신청·결제 백엔드 개발 및 운영 · 2025.02 – 2025.11 | Java, Spring Boot, MySQL
+
+- 1차 운영은 모집 대상 약 800명에 맞춰 MySQL의 **원자적 UPDATE**로 정원을 확인하고 신청을 처리
+- 운영 지표에서 신청 집중 구간 요청의 약 10%가 2초가량 걸리는 것을 확인. 정원 초과는 없었지만, 각 학원 홍보로 2차 모집 대상이 약 2,000명으로 늘어날 예정이어서 처리 흐름을 다시 검토
+- 신청 정보를 **DB에 먼저 INSERT한 뒤 대사 쿼리로 정원을 확인**하도록 변경하고, 2,000명 운영 규모를 기준으로 부하 테스트를 진행
+- 실제 2차 운영에서 **정원 초과 없이 응답을 1초 이내로 유지**. 서비스 전체 운영기간 매출은 약 **1억 3천만 원**
 
 
 ### 환전소 예약 서비스
